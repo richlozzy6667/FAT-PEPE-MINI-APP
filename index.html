@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fat Pepe Point Farm</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="fat-pepe.png" alt="Fat Pepe" class="logo">
+        <h1>Fat Pepe Point Farm</h1>
+    </header>
+    <div class="container">
+        <div class="menu">
+            <button id="home-btn" class="menu-btn">Home</button>
+            <button id="tasks-btn" class="menu-btn">Tasks</button>
+            <button id="referrals-btn" class="menu-btn">Referrals</button>
+            <button id="stake-btn" class="menu-btn">Stake</button>
+            <button id="leaderboard-btn" class="menu-btn">Leaderboard</button>
+        </div>
+        <div id="home" class="content">
+            <h2>Total Points: <span id="total-points" class="points">0</span></h2>
+        </div>
+        <div id="tasks" class="content" style="display: none;">
+            <h2>Tasks</h2>
+            <ul class="task-list">
+                <li class="task-item">
+                   <a href="https://t.me/fatpepethefrog"> <button id="subscribe-telegram" class="task-btn">Subscribe To Our Telegram Channel</button> </a>
+                    <span class="task-reward">+500 points</span>
+                    <span id="telegram-status" class="task-status"></span>
+                </li>
+                <li class="task-item">
+                   <a href="https://x.com/fatpepethefrog?s=21"> <button id="follow-x" class="task-btn">Follow Us On X</button> </a>
+                    <span class="task-reward">+500 points</span>
+                    <span id="x-status" class="task-status"></span>
+                </li>
+                <li class="task-item">
+                 <a href="https://t.me/user/profile">   <button id="add-pepe" class="task-btn">Add 🐸 To Your Telegram Username</button> </a>
+                    <span class="task-reward">+200 points</span>
+                    <span id="pepe-status" class="task-status"></span>
+                </li>
+                <li class="task-item">
+                    <button id="connect-wallet" class="task-btn">Connect Your Ton Wallet</button>
+                    <span class="task-reward">+2000 points</span>
+                    <span id="wallet-status" class="task-status"></span>
+                </li>
+            </ul>
+        </div>
+        <div id="referrals" class="content" style="display: none;">
+            <h2>Referrals</h2>
+            <p>Invited Friends: <span id="invited-friends" class="points">0</span></p>
+            <p>Points per friend: 150</p>
+            <button id="invite-one" class="invite-btn">CLAIM</button>
+            <button id="invite-five" class="invite-btn">CLAIM</button>
+            <button id="invite-ten" class="invite-btn">Invite Ten Friends</button>
+            <button id="invite-hundred" class="invite-btn">CLAIM</button>
+            <ul class="invite-rewards">
+                <li>
+                    <span>Invite One Friend: +100 points</span>
+                    <span id="invite-one-status" class="task-status"></span>
+                </li>
+                <li>
+                    <span>Invite Five Friends: +500 points</span>
+                    <span id="invite-five-status" class="task-status"></span>
+                </li>
+                <li>
+                    <span>Invite Ten Friends: +2000 points</span>
+                    <span id="invite-ten-status" class="task-status"></span>
+                </li>
+                <li>
+                    <span>Invite Hundred Friends: +25000 points</span>
+                    <span id="invite-hundred-status" class="task-status"></span>
+                </li>
+            </ul>
+        </div>
+        <div id="stake" class="content" style="display: none;">
+            <h2>Stake</h2>
+            <p>Total Points Staked: <span id="total-staked" class="points">0</span></p>
+            <button id="stake-points" class="stake-btn">Stake Your Points</button>
+            <button id="unstake-points" class="stake-btn">UnStake Your Points</button>
+            <button id="redeem-bonus" class="stake-btn">Redeem Staking Bonus</button>
+        </div>
+        <div id="leaderboard" class="content" style="display

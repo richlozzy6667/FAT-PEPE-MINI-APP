@@ -1,0 +1,201 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+
+{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ {
+  background-image: url('fat-pepe-background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-image: url('fat-pepe-logo.png'); /* Add a logo image of Fat Pepe */
+  background-size: cover;
+  background-position: center;
+}
+
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-item {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.menu-item:hover {
+  background-color: #3e8e41;
+}
+
+
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.total-points {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+
+.tasks {
+  padding: 20px;
+}
+
+.task {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.task-name {
+  font-weight: bold;
+}
+
+.task-points {
+  color: #666;
+}
+
+
+
+.referrals {
+  padding: 20px;
+}
+
+.referral-stats {
+  margin-bottom: 20px;
+}
+
+.invite-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.invite-button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+
+.stake {
+  padding: 20px;
+}
+
+.stake-stats {
+  margin-bottom: 20px;
+}
+
+.stake-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.stake-button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+
+.leaderboard {
+  padding: 20px;
+}
+
+.leaderboard-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.leaderboard-table th, .leaderboard-table {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.leaderboard-table th {
+  background-color: #f0f0f0;
+}
+
+
+.frog-icon {
+  width: 20px;
+  height: 20px;
+  background-image: url('fat-pepe-icon.png');
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.frog-button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.frog-button:hover {
+  background-color: #3e8e41;
+}
